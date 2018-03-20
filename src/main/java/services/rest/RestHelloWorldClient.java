@@ -27,6 +27,6 @@ public class RestHelloWorldClient {
                 .accept(MediaType.TEXT_HTML).get(String.class));
     }
     private static URI getBaseURI() {
-        return UriBuilder.fromUri("http://localhost:8080/").build();
+        return UriBuilder.fromUri("http://localhost:8080/Rest_Ex1").build();
     }
 }
